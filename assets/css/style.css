@@ -25,7 +25,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 60px;
-  background: #13293d;
+  background: #d64b0a;
   color: #fff;
 }
 h1 {
@@ -40,6 +40,17 @@ h1 {
   border-width: 1px;
 }
 
+.cone {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: auto;
+}
+
+#cone img {
+  width: 25%;
+}
 .card header {
   padding: 20px;
   background: #13293d;
@@ -62,7 +73,7 @@ button {
 
 /* The user's cursor is positioned over the element */
 button:hover {
-  background-color: #772014;
+  background-color: #07be10;
   color: #fff;
 }
 
